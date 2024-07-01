@@ -29,11 +29,11 @@ a {
   left: 0;
   top: 0;
   width: 100%;
-  height: 80px;
+  height: 65px;
   display: flex;
   align-items: center;
   z-index: 10;
-  background-color: rgba(150, 192, 219, 0.482);
+  background-color: rgba(178, 212, 233, 0.482);
 }
 
 .nav-fixed {
@@ -322,7 +322,7 @@ nav ul ul li a:hover {
   display: flex;
   width: 100%;
   height: 100%;
-  background: #3578e5;
+  background: #3578e533;
   padding-bottom: 1.5rem;
   scroll-padding-bottom: 4rem;
 }
@@ -527,12 +527,6 @@ nav ul ul li a:hover {
     text-align: center;
   }
 
-  .content-text p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: rgba(226, 232, 240, 0.8);
-  }
-
   .content-text button {
     font-size: 1rem;
     font-weight: bold;
@@ -571,10 +565,10 @@ nav ul ul li a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 150px;
+    padding-left: 235px;
     padding-right: 150px;
     max-width: 100%;
-    gap: 3rem;
+    gap: 5rem;
   }
 
   .artic-text {
@@ -590,6 +584,8 @@ nav ul ul li a:hover {
     height: 300px;
     padding-bottom: 0.5rem;
     object-fit: cover;
+    border-radius: 10%;
+
   }
 
   .artic-text h2 {
@@ -597,6 +593,7 @@ nav ul ul li a:hover {
     font-size: 1.3rem;
     line-height: 1rem;
     font-weight: bold;
+    color: #3578e5;
   }
 
   .first {
@@ -615,99 +612,48 @@ nav ul ul li a:hover {
   /* akhir main */
 
   /* about */
-  .aside-container {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    background: #3578e5;
+  #about {
+    position: relative;
+    overflow: hidden;
   }
-
+  
+  .background2-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .aside-container {
+    position: relative;
+    z-index: 1;
+    color: white; /* To make text visible over the video */
+    padding: 50px; /* Adjust as needed */ 
+  }
+  
   .handle-aside {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    gap: 1rem;
-    height: 100%;
-  }
-
-  .aside-about {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    color: #fff;
-    gap: 1rem;
-  }
-
-  .aside-about p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: rgba(225, 225, 225, 0.9);
-  }
-
-  .aside-about a {
-    color: #fff;
-  }
-
-  .about-icons a {
-    width: 100%;
-    padding: 0.2rem;
-    color: #fff;
-  }
-
-  .aside-card {
-    width: 60%;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  }
-
-  .aside-card h1 {
-    font-size: 2rem;
-    line-height: 1.5rem;
-    font-weight: bold;
-    padding-bottom: 1.5rem;
-  }
-
-  .aside-card img {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    border: 5px solid #fff;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  }
-
-  .aside-card h2 {
-    padding-top: 1rem;
-    font-size: 1.3rem;
-    line-height: 1rem;
-    font-weight: bold;
-    padding-bottom: 1.5rem;
-  }
-
-  .aside-card p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: rgba(225, 225, 225, 0.9);
+    text-align: left ;
   }
 
   .about-text {
-    width: 60%;
+    margin-right: 20rem;
+    text-align: left ;
+    display: flex;
+    
+   
   }
 
-  .aside-about h1 {
-    font-size: 2rem;
-    line-height: 1.5rem;
-    font-weight: bold;
-    padding-bottom: 1.5rem;
+  .about-text h1{
+    /* padding-top: 10px; */
   }
-  /* akhir about */
+  
+    /* akhir about */
 
   /* footer */
   .footer-container {
