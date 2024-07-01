@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Lexend", sans-serif;
+  font-family:"Playfair Display", serif;
   background-color: #fffffe;
 }
 
@@ -241,6 +241,7 @@ nav ul ul li a:hover {
   font-size: 0.9rem;
   line-height: 1.5rem;
   color: rgba(226, 232, 240, 0.8);
+  text-align: center;
 }
 
 .content-text button {
@@ -288,6 +289,15 @@ nav ul ul li a:hover {
   max-width: 100%;
   height: 100%;
   gap: 1rem;
+}
+
+.artic-text img {
+  transition: transform 0.3s ease-in-out;
+  filter: drop-shadow(30px 10px 4px #65659eb2);
+}
+
+.artic-text img:hover {
+  transform: translateY(-30px);
 }
 
 .artic-text {
@@ -545,6 +555,10 @@ nav ul ul li a:hover {
     background-color: #3578e5;
     border: 2px solid rgb(209 213 219);
   }
+  body {
+    background: linear-gradient(to top, #2628bc6b, rgba(86, 151, 207, 0.58), #37805e);
+  }
+  
 
   .content-image {
     width: 50%;
@@ -632,6 +646,9 @@ nav ul ul li a:hover {
     z-index: 1;
     color: white; /* To make text visible over the video */
     padding: 50px; /* Adjust as needed */ 
+    background: linear-gradient(to bottom, rgba(86, 151, 207, 0.58), rgba(0, 0, 255, 0));
+    padding: 20px;
+    color: white;
   }
   
   .handle-aside {
@@ -644,13 +661,11 @@ nav ul ul li a:hover {
   .about-text {
     margin-right: 20rem;
     text-align: left ;
-    display: flex;
-    
-   
   }
 
   .about-text h1{
-    /* padding-top: 10px; */
+    line-height: 1rem;
+  
   }
   
     /* akhir about */

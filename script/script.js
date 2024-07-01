@@ -16,3 +16,14 @@ hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("hamburger-active");
   navMenu.classList.toggle("hidden");
 });
+
+// zoom gambar
+document.addEventListener("DOMContentLoaded", () => {
+  const zoomableImages = document.querySelectorAll('.zoomable');
+
+  zoomableImages.forEach(image => {
+    image.addEventListener('click', () => {
+      image.classList.toggle('zoomed');
+    });
+  });
+});
