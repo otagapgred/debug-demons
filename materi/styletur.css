@@ -5,24 +5,33 @@ body {
   background-color: #2315e35f;
 }
 
-#map-container {
-  position:relative;
+.background-container {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background-image: url('Rotating_earth_%28large%29.gif');
+  background-size: cover;
+  background-position: center;
+  animation: rotate 60s infinite linear;
+  z-index: -10;
 }
-iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
 }
 
+/* header */
 header {
   color: #fff;
   margin: 2rem;
   padding: 10px;
-}
+}  
+
 
 .back-button {
   background-color: #0074d9;
@@ -33,19 +42,34 @@ header {
   cursor: pointer;
   border-radius: 10px;
   text-decoration: none;
-}
+}  
+/* header end */
 
+
+/*main */
 main {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
 }
-
 .blog-post img {
   max-width: 100%;
   height: auto;
   display: flex;
+}
+
+#map-container {
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
 }
 
 .blog-post h1 {
@@ -59,3 +83,4 @@ main {
   line-height: 1.6;
   color: #555;
 }
+/* main end */
