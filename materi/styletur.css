@@ -2,7 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #d9d9dd;
+  background: url('bumi.gif') no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
 }
 
 .content {
@@ -61,12 +63,21 @@ iframe {
 .blog-post h1 {
   font-size: 24px;
   margin-top: 20px;
-  color: #333;
+  color: #e1dddd;
 }
 
 .blog-post p {
   font-size: 16px;
   line-height: 1.6;
-  color: #555;
+  color: #e1dddd;
+}
+
+.card {
+  background-color: rgba(150, 151, 190, 0.79);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 800px;
+  text-align: center;
 }
 /* main end */
