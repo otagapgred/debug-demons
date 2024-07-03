@@ -61,23 +61,30 @@ iframe {
 }
 
 .blog-post h1 {
-  font-size: 24px;
-  margin-top: 20px;
+  font-size: 30px;
+  margin-top: 15px;
   color: #e1dddd;
+  
 }
 
 .blog-post p {
   font-size: 16px;
   line-height: 1.6;
   color: #e1dddd;
+  margin-bottom: 3rem;
 }
 
 .card {
+  margin-top: 2rem;
   background-color: rgba(150, 151, 190, 0.79);
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 800px;
   text-align: center;
+}
+
+.card h2{
+  color:aliceblue;
 }
 /* main end */
