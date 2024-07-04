@@ -33,7 +33,7 @@ a {
   display: flex;
   align-items: center;
   z-index: 10;
-  background-color: rgba(178, 212, 233, 0.482);
+  background-color: rgba(178, 212, 233, 0);
 }
 
 .nav-fixed {
@@ -162,7 +162,9 @@ a {
   margin-right: 2rem;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #0f0f0f;
+  color: #201d1d;
+  text-shadow: #ffffff;
+  text-decoration-color: #1c1e21;
 }
 
 .navbar-menu ul li a:hover {
