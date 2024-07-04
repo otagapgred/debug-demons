@@ -1,3 +1,4 @@
+/*body*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -10,6 +11,7 @@ body {
   margin: 0 auto;
 }
 
+/* zigzag */
 .zigzag {
   display: flex;
   flex-direction: column;
@@ -53,6 +55,7 @@ body {
   order: 1;
 }
 
+/* format ukuran */
 @media (max-width: 768px) {
   .zigzag-item {
       flex-direction: column;
