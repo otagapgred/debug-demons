@@ -689,9 +689,11 @@ nav ul ul li a:hover {
     justify-content: center;
     align-items: center;
     color: rgba(225, 225, 225, 0.9);
-    background-color: #303846;
+    background-color: #24529b;/* hapus ini kalo mo pake background gambar */
+    /* background-image: url('footer.jpeg'); */
+    background-size: cover;    
     width: 100%;
-    height: 50px;
+    height: 30px;
   }
   /* akhir footer */
 }
