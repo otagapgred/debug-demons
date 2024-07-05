@@ -60,6 +60,11 @@ a {
   padding-right: 1rem;
 }
 
+.header .navbar-logo img{
+  height: 40px;
+  margin-top: 10px;
+}
+
 .header .logo a {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -495,7 +500,7 @@ nav ul ul li a:hover {
   }
 
   nav ul ul li {
-    background-color: #fff;
+    background-color: #ffffffc5;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     padding: 0.7em 0.5em;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
