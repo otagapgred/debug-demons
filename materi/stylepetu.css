@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('begron.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  color: #ffffff;
+  margin: 2rem;
+  padding: 10px;
+}
