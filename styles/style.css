@@ -429,6 +429,17 @@ nav ul ul li a:hover {
   font-weight: bold;
   padding-bottom: 1.5rem;
 }
+.back-button {
+  background-color: #becad6;
+  color: #131313;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  padding-left: 3rem;
+}
 /* footer */
 .footer-container {
   font-size: 0.8rem;
