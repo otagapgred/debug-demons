@@ -11,12 +11,14 @@ header {
   color: #ffffff;
   margin: 2rem;
   padding: 10px;
+  
 }
 header h1{
   text-align: center;
   color: #333;
   margin-top: 10px;
   display: block;
+  font-size: 30px;
 }
 .back-button {
   background-color: #00d9ae;
@@ -50,7 +52,7 @@ main {
   max-width: 100%;
   width: 500px;
   border-radius: 10%;
-  display: block;
+  display:ruby-base;
   margin: 0 auto;
 }
 
