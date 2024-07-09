@@ -1,51 +1,65 @@
-/* style untuk petualanga.html */
-
 /* body */
 body {
+  font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background: url('begron.jpg') no-repeat center center fixed;
+  background: url('siuuu.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
+header h1 {
+  color: black; 
+  font-size: 2em; 
+  margin: 0; 
+  padding: 20px; 
+  text-align: center; 
+  border-radius: 10px; 
+}
+
 header {
-  color: #000000;
-  margin: 2rem;
-  padding: 10px;
+  margin-top: 5rem;
   text-align: center;
+  display: block;
+  color: #fff;
 }
+
 main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
   padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
 }
 
-main section {
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s;
 }
 
-main section h2 {
-  margin-top: 0;
+.card:hover {
+  transform: scale(1.05);
 }
-/* akhir body */
 
-/* footer */
-footer {
-  background-color: #2c3e50;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  position: absolute;
+.card-image {
   width: 100%;
-  bottom: 0;
+  height: 200px; /* Menetapkan tinggi gambar yang seragam */
+  object-fit: cover; /* Menyesuaikan gambar agar tetap proporsional */
 }
 
-footer p {
-  margin: 5px 0;
+.card-content {
+  padding: 15px;
+  height: 200px; /* Menetapkan tinggi konten teks */
+  overflow-y: auto; /* Menambahkan scrollbar jika teks terlalu panjang */
 }
-/* akhir footer */
+
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1em;
+  color: #333;
+}
