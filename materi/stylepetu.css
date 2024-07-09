@@ -63,3 +63,7 @@ main {
   font-size: 1em;
   color: #333;
 }
+
+.grid{
+  background-color: rgba(240, 248, 255, 0.747);
+}

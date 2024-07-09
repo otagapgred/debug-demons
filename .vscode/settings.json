@@ -1,4 +1,5 @@
 {
   "editor.cursorStyle": "line-thin",
-  "files.autoSave": "onFocusChange"
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
